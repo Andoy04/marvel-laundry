@@ -14,6 +14,7 @@ jobs:
         run: |
           pip install mkdocs
           pip install mkdocs-material
+           pip install mkdocs-video
       - name: Build
         run: mkdocs build
       - name: Deploy
