@@ -1,3 +1,3 @@
 # Contact Details
 
-<h2 class="not-found"> 404 - Under Construction  <h2>
+<img src="../assets/404.jpg">

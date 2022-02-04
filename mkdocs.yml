@@ -2,13 +2,14 @@ site_name: Marvel Laundry Shop
 nav:
   - Home: index.md
   - Contact Details: about_us.md
+  - Prices: prices.md
   - Services: services.md
 
 theme:
   name: material
   palette: 
     - scheme: default
-      primary: red
+      primary: teal
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
@@ -33,6 +34,10 @@ extra:
     - icon: fontawesome/brands/facebook
       link: https://twitter.com/squidfunk
       name: squidfunk on Twitter
-  generator: false
+
+plugins:
+  - mkdocs-video:
+      mark: "custom-marker"
+  
 
 copyright: Copyright &copy; Alvin Carpio  
