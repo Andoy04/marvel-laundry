@@ -11,7 +11,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
       - name: Install Packages
-        run:|
+        run: |
           pip install mkdocs
           pip install mkdocs-material
       - name: Build
