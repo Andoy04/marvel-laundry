@@ -10,10 +10,14 @@
   animation: heart 1000ms infinite;
 }
 
-.not-found {
+.not-found {  
   color: red;
 }
 
 .head2 {
   color: peru
+}
+
+td {
+  width: 500px;
 }
